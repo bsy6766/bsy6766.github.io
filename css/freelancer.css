@@ -11,7 +11,15 @@ p {
   font-size: 20px;
 }
 p.small {
-  font-size: 16px;
+  font-size: 12px;
+}
+p.buttonLabel {
+  font-size: 12px
+  padding-top: 5px;
+}
+p.pb {
+  font-size: 17px;
+  font-weight:bold;
 }
 a,
 a:hover,
@@ -68,8 +76,9 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
+  /*Body 1*/
   text-align: center;
-  background: #18BC9C;
+  background: #000000;
   color: white;
 }
 header .container {
@@ -93,8 +102,9 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    /*Body 1*/
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -104,7 +114,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #4d6277;
+  background: #3d3d3d;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -129,7 +139,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #ffe07a;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -138,13 +148,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #ffe07a;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #ffe07a;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -160,34 +170,54 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
+    /*When viewing top*/
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
   .navbar-custom.affix {
-    padding: 10px 0;
+    /*Padding when nav bar shrinks*/
+    padding: 0px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    /*name scale when scroll down*/
+    font-size: 1.2em;
   }
 }
 section {
-  padding: 100px 0;
+  /*Padding between each body section*/
+  padding: 20px 0;
+  background: #232323;
+}
+section.contact {
+  /*Padding between each body section*/
+  padding: 20px 0;
+  background: #000000;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
+  padding-bottom: 20px;
+  color: white;
 }
 section.success {
-  background: #18BC9C;
+  /*about section*/
+  background: #000000;
   color: white;
+}
+section.link {
+  /*about section*/
+  background: #232323;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 @media (max-width: 767px) {
   section {
@@ -208,7 +238,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgba(239, 239, 239, 0.6);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -236,6 +266,7 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
+  color: black;
 }
 #portfolio * {
   z-index: 2;
@@ -323,7 +354,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #000000;
   background: white;
   border: solid 2px white;
 }
