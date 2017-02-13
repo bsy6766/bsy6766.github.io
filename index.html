@@ -101,11 +101,11 @@
                         <p class="buttonLabel">CERTIFICATE</p>
                     </li>
                     <li>
-                        <a href="https://github.com/bsy6766" class="btn-social btn-outline"><i class="fa fa-lg fa-fw fa-github"></i></a>
+                        <a href="https://github.com/bsy6766" class="btn-social btn-outline" target="_blank"><i class="fa fa-lg fa-fw fa-github"></i></a>
                         <p class="buttonLabel">GITHUB</p>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/JohnSYBaek" class="btn-social btn-outline"><i class="fa fa-lg fa-fw fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/JohnSYBaek" class="btn-social btn-outline" target="_blank"><i class="fa fa-lg fa-fw fa-linkedin"></i></a>
                         <p class="buttonLabel">LINKEDIN</p>
                     </li>
                 </ul>
@@ -353,12 +353,12 @@
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#tetris2DModal" class="portfolio-link" data-toggle="modal">
+                        <a href="#gameCloneModal" class="portfolio-link" data-toggle="modal" onClick="startSlider();initSlider(1, 'gameClone', 3, 'image_gameClone');">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <h3>Tetris 2D</h3>
+                                    <h3>Game CLones</h3>
                                     <br>
-                                    <h4>First Tetris Implementation</h4>
+                                    <h4>Tetris, Go Stop, Minesweeper</h4>
                                     <br>
                                     <h4>C++, SDL</h4>
                                     <br>
@@ -368,37 +368,21 @@
                             <img src="img/projects/icons/tetris2DIcon.png" class="img-responsive" alt="">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#goStopModal" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <h3>Go Stop</h3>
-                                    <br>
-                                    <h4>Korean Card Game</h4>
-                                    <br>
-                                    <h4>C++, SDL</h4>
-                                    <br>
-                                    <h4>2012</h4>
-                                </div>
-                            </div>
-                            <img src="img/projects/icons/goStopIcon.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#minesweeperModal" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <h3>Minesweeper</h3>
-                                    <br>
-                                    <h4>First Game With Graphics</h4>
-                                    <br>
-                                    <h4>C++, SDL</h4>
-                                    <br>
-                                    <h4>2011</h4>
-                                </div>
-                            </div>
-                            <img src="img/projects/icons/minesweeperIcon.png" class="img-responsive" alt="">
-                        </a>
+                    <!-- Libraries -->
+                    <p>
+                        <div align="center">
+                            <a class="btn btn-default" data-toggle="collapse" href="#moreProjects" aria-expanded="false" aria-controls="collapseExample">
+                                <h4>More!</h4>
+                            </a>
+                        </div>
+                        <br>
+                    </p>
+                    <div class="collapse" id="moreProjects">
+                        <div align="center">
+                            <p class="moreProjects">Visit my Github page for more. I make random and fun game libraries and share on my Github!</p>
+                            <a href="https://github.com/bsy6766" class="btn-social btn-outline" target="_blank"><i class="fa fa-lg fa-fw fa-github"></i></a>
+                            <p class="buttonLabel">GITHUB</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -503,6 +487,8 @@
                                 <p class="detail">This project visualizes algorithms in 2D space. Each visualization simulates the algorithm step by step on every tick. User can interact with simulator to modify the speed, variables, etc.</p><p class="detail">More information and download link can be found on <a href="https://github.com/bsy6766/Visualization">Github</a> page.</p>
                                 <p class="modalSubTitle">Language, Engine & Tools</p>
                                 <p class="detail">C++, cocos2d-X, PhotoShop, TexturePacker, Git</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2016</p>
                             </div>
                         </div>
                     </div>
@@ -557,6 +543,8 @@
                                 <p class="detail"><a href="https://youtu.be/TIbbY8gJd6M">Youtube</a></p>
                                 <p class="modalSubTitle">Download</p>
                                 <p class="detail"><a href="http://www.cs.utexas.edu/~gamedev/fall-2015/black-monday-win.zip">Windows</a>,   <a href="http://www.cs.utexas.edu/~gamedev/fall-2015/black-monday-mac.zip">OS X</a></p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2015</p>
                             </div>
                         </div>
                     </div>
@@ -590,6 +578,8 @@
                                 <p class="detail">In the beginning, the main purpose of this project was to learn how to use OpenGL. Then I extended a lot more by adding various features and learned much more about game engine and other techniques, like text rendering, shader, reducing draw calls, etc. This project is no longer active.</p>
                                 <p class="modalSubTitle">Language, Engine & Tools</p>
                                 <p class="detail">C++, OpenGL, FMOD, FreeType2, PhotoShop, GLFW, GLM, Lua</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2015</p>
                             </div>
                         </div>
                     </div>
@@ -636,6 +626,8 @@
                                 <p class="detail">This project was a 3 months long project during my summer break while I was in college and everything in this game (code, art, sound effect, music, level design) were made by me. The game is not on the Apple's Appstore anymore but still exists and runs in my iphone.</p>
                                 <p class="modalSubTitle">Language, Engine & Tools</p>
                                 <p class="detail">Objective-C, cocos2d-iphone, PhotoShop, TexturePacker</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2013</p>
                             </div>
                         </div>
                     </div>
@@ -682,6 +674,8 @@
                                 <p class="detail">The plugin was a paid resource at Spigot website. It supported upto Minecraft version 1.8.3.</p>
                                 <p class="modalSubTitle">Language, Engine & Tools</p>
                                 <p class="detail">Java, Python, Spigot API, Mojang API</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2015</p>
                             </div>
                         </div>
                     </div>
@@ -715,6 +709,8 @@
                                 <p class="detail">This project leads to my game engine project called Volt2D.</p>
                                 <p class="modalSubTitle">Language</p>
                                 <p class="detail">C++, OpenGL</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2015</p>
                             </div>
                         </div>
                     </div>
@@ -761,6 +757,8 @@
                                 <p class="detail">This is a website that our team created during the Software Engineering course in college. I contributed on front-end and a bit on back-end. We used Python, HTML, Jinja, Flask, JavaScript and postgresql. The purpose of this website is to search programmer jobs like any other job search websites. Since server was provided for only a year, the website is no longer available.</p>
                                 <p class="modalSubTitle">Language & Tools</p>
                                 <p class="detail">HTML, Python, JavaScript, Flask, Jinja, Postgresql</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2015</p>
                             </div>
                         </div>
                     </div>
@@ -769,12 +767,188 @@
         </div>
     </div>
     <!-- Particle System -->
+    <div class="portfolio-modal modal fade" id="particelSystemModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onClick="stopSlider()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <p class="modalTitle">Particle System</p>
+                            <hr>
+                            <a href="https://github.com/bsy6766/Volt2D" class="btn-outlineSimple" target="_blank"><i class="fa fa-3x fa-fw fa-github"></i></a>
+                            <br><br>
+                            <div class="intrinsic-container">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/Cxu1riffkHA?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div align="center">
+                                <p class="modalSubTitle">Detail</p>
+                                <p class="detail">This project was to make a working 2D Particle System with OpenGL. My goal was to handle upto 5000 particles at once with 60fps. This project merged to Volt2D game engine.</p>
+                                <p class="modalSubTitle">Language</p>
+                                <p class="detail">C++, OpenGL</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2015</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- 3D Multiplayer Game -->
+    <div class="portfolio-modal modal fade" id="projectileShootingGameModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onClick="stopSlider()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <p class="modalTitle">3D Projectile Shooting Multiplayer Game</p>
+                            <hr>
+                            <a href="https://github.com/bsy6766/CS354R" class="btn-outlineSimple" target="_blank"><i class="fa fa-3x fa-fw fa-github"></i></a>
+                            <br><br>
+                            <div class="intrinsic-container">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/ewQpjf-Y2M8?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div align="center">
+                                <p class="modalSubTitle">Detail</p>
+                                <p class="detail">This game was made for Game Technology course. It is a turn-based projectile(bomb) shooter multiplayer game.</p>
+                                <p class="modalSubTitle">Language & Engine</p>
+                                <p class="detail">C++, Ogre3D, SDL_net</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2014</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- 3D Tetris -->
+    <div class="portfolio-modal modal fade" id="tetris3DModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onClick="stopSlider()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <p class="modalTitle">3D Tetris</p>
+                            <hr>
+                            <br><br>
+                            <div class="intrinsic-container">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/eyYTFEJTIJU?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div align="center">
+                                <p class="modalSubTitle">Detail</p>
+                                <p class="detail">The very first game that I made with OpenGL.</p>
+                                <p class="modalSubTitle">Language</p>
+                                <p class="detail">C++, OpenGL</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2013</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- AES128 -->
+    <div class="portfolio-modal modal fade" id="aes128Modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onClick="stopSlider()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <p class="modalTitle">AES128</p>
+                            <hr>
+                            <br><br>
+                            <div align="center">
+                                <p class="modalSubTitle">Detail</p>
+                                <p class="detail">AES128 Encryption and Decryption. This is a course work I did for Network Security course in college. And...that's it! :^)</p>
+                                <p class="modalSubTitle">Language</p>
+                                <p class="detail">Java</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2013</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- 2D Tetris -->
     <!-- Go Stop -->
     <!-- MineSweeper -->
+    <div class="portfolio-modal modal fade" id="gameCloneModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onClick="stopSlider()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <p class="modalTitle">Game Clones</p>
+                            <hr>
+                            <br><br>
+                            <div align="center">
+                                <div id="slider">
+                                    <img src="img/projects/detail/gameClone1.png" class="img-responsive img-centered" id="image_gameClone" alt="">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <div class="left_hold"><img onClick="slider(-1)" class="left" src="img/projects/arrow_left.png"></div>
+                                        </li>
+                                        <li>
+                                            <div class="play_hold"><img onClick="slider(0)" class="play" src="img/projects/play.png"></div>
+                                        </li>
+                                        <li>
+                                            <div class="pause_hold"><img onClick="pauseSlider()" class="pause" src="img/projects/pause.png"></div>
+                                        </li>
+                                        <li>
+                                            <div class="right_hold"><img onClick="slider(1)" class="right" src="img/projects/arrow_right.png"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="intrinsic-container">
+                                    <iframe width="640" height="360" src="https://www.youtube.com/embed/5tqBoD9IFSE?rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <p class="modalSubTitle">Detail</p>
+                                <p class="detail">These games are the few games that I made when I just started learning programmin in college. I used SDL for graphics and C++. These are also the early games that I made wtih graphics.</p>
+                                <p class="modalSubTitle">Language & Engine</p>
+                                <p class="detail">C++, SDL</p>
+                                <p class="modalSubTitle">Date</p>
+                                <p class="detail">2012</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
