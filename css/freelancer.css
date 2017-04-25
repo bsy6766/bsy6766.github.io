@@ -266,6 +266,11 @@ section.link {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+section.gamedev
+{
+  background: #232323;
+  color: white;
+}
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -691,4 +696,10 @@ fieldset[disabled] .btn-success.active {
 {
   color: white;
   transform: scale(0.5);
+}
+/*iframe twitch*/
+div.twitch iframe
+{
+    margin-left: auto;
+    margin-right: auto;
 }
