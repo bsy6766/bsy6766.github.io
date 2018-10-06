@@ -1,0 +1,191 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  background: #101621;
+  /*font: normal 100%/1.5 "Titillium Web",sans-serif;*/
+  color: #d3e6d4;
+  /*background-color: #222733;*/
+}
+
+b{
+  font-weight: 700;
+  color: white;
+}
+
+#site-nav {
+    position: fixed;
+/*    top: 0;
+    left: 0;*/
+    width: 100%;
+    /*min-width: 20rem;*/
+    z-index: 999;
+    /*float: none;*/
+    background-color: #2e3539;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+#site-nav li {
+    display: inline-block;
+}
+
+#site-nav li a {
+    color: #bcc8bb;
+}
+
+#site-nav li a:hover {
+    color: #73cca8;
+    background-color: #232935;
+}
+
+#site-nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+#site-header{
+  position: relative;
+  width: 100%;
+  /*height: 100vh;*/
+  /*min-height: 40rem;*/
+  padding-top: 10rem;
+  text-align: center;
+}
+
+#site-header p{
+  color:white;
+  font-size: 5em;
+  font-family: 'Malgun Gothic';
+}
+
+.header-title {
+    position: relative;
+    padding: 0em 0;
+    text-align: center;
+    font-size: 1.0vw;
+}
+
+.sub-title {
+  font-size: 25px;
+}
+
+.my-photo {
+    position: relative;
+    width: 12em;
+    height: 12em;
+    /*margin: 0 auto;*/
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.intro-text{
+    position: relative;
+    font-size: 20px;
+}
+
+.gap{
+  padding: 100px;
+}
+
+.gap50{
+  padding: 50px;
+}
+
+.gap2{
+  padding: 70px;
+}
+
+.gap3{
+  padding: 30px;
+}
+
+.top-gap{
+  padding: 50px;
+}
+
+.section-title{
+  font-size: 50px;
+}
+
+.resume-title{
+  font-size: 100px;
+}
+
+.resume-sub-title{
+  font-size: 40px;
+}
+
+.resume-sub-2-title{
+  font-size: 34px;
+}
+
+.resume-text{
+  font-size: 22px;
+  font-weight: 100;
+  color: #bdd0be;
+}
+
+.about-text{
+  font-size: 22px;
+  text-align: left;
+}
+
+.college-text{
+  text-align: center;
+  font-size: 27px;
+  color: #e0f2e1;
+}
+
+.major-text{
+  text-align: center;
+  font-size: 22px;
+}
+
+.certificate-text{
+  text-align: center;
+  font-size: 18px;
+  color: #9fafa0;
+}
+
+.email{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.btn-outline {
+  color: #bcc8bb;
+  font-size: 20px;
+  border: solid 2px #bcc8bb;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #000000;
+  background: white;
+  border: solid 2px #bcc8bb;
+}
+
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #bcc8bb;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+#text-fade-in {
+  opacity: 0;
+  transition: 1s opacity;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+}
