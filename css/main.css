@@ -106,7 +106,12 @@ b{
 
 .section-title{
   /*font-size: 100px;*/
-  font-size: 7rem;
+  font-size: 6rem;
+}
+
+.subsection-title{
+  /*font-size: 100px;*/
+  font-size: 5rem;
 }
 
 .resume-title{
@@ -124,13 +129,37 @@ b{
 .resume-text{
   font-size: 22px;
   font-weight: 100;
-  color: #bdd0be;
+  color: #d9edda;
 }
 
 .project-sub-title{
   font-size: 22px;
   font-weight: 100;
-  color: #bdd0be;
+  color: #d9edda;
+}
+
+.academic-sub-title{
+  font-size: 22px;
+  font-weight: 100;
+  color: #e4f5e5;
+}
+
+.academic-content-title{
+  font-size: 30px;
+  font-weight: 100;
+  color: #d5e3d5;
+}
+
+.academic-content-authors{
+  font-size: 20px;
+  font-weight: 100;
+  color: #c1cdc2;
+}
+
+.academic-content-year{
+  font-size: 13px;
+  font-weight: 100;
+  color: #abb6ac;
 }
 
 .game-jam-title{
@@ -141,17 +170,18 @@ b{
 .game-jam-text{
   font-size: 22px;
   font-weight: 100;
-  color: #bdd0be;
+  color: #d9edda;
 }
 
 .game-jam-year{
   font-size: 15px;
   font-weight: 100;
-  color: #bdd0be;
+  color: #d9edda;
 }
 
 .project-link-icon{
   font-size: 25px;
+  color: #80aace;
 }
 
 .about-text{
@@ -224,5 +254,5 @@ b{
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
-      background: #bdd0be;
+      background: #d9edda;
 }
