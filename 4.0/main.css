@@ -11,6 +11,15 @@ body {
   /*background-color: #222733;*/
 }
 
+b{
+  font-weight: 700;
+  color: white;
+}
+
+br.half{
+	line-height:1px;
+}
+
 .gap30{
   padding: 30px;
 }
@@ -23,30 +32,20 @@ body {
   padding: 70px;
 }
 
-#site-header{
+.name-title{
   position: relative;
-  /*width: 100%;*/
-  /*height: 100vh;*/
-  /*min-height: 40rem;*/
-  padding-top: 10rem;
   text-align: center;
-}
-
-#site-header p{
-  color:white;
+  color: #eff9ee;
   font-size: 5em;
   font-family: 'Malgun Gothic';
 }
 
-.header-title {
-    position: relative;
-    padding: 0em 0;
-    text-align: center;
-    font-size: 1.0vw;
-}
-
-.sub-title {
-  font-size: 25px;
+.position-title{
+  position: relative;
+  text-align: center;
+  color: #d6e1d6;
+  font-size: 3em;
+  font-family: 'Malgun Gothic';
 }
 
 .my-photo {
@@ -90,9 +89,9 @@ body {
 }
 
 .btn-outline {
-  color: #bcc8bb;
+  color: #eff9ee;
   font-size: 20px;
-  border: solid 2px #bcc8bb;
+  border: solid 2px #eff9ee;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -104,14 +103,14 @@ body {
 .btn-outline.active {
   color: #000000;
   background: white;
-  border: solid 2px #bcc8bb;
+  border: solid 2px #eff9ee;
 }
 
 .btn-social {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid #bcc8bb;
+  border: 2px solid #eff9ee;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
@@ -128,6 +127,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 0px;
 }
 
 .item-label{
@@ -138,4 +138,78 @@ body {
 div.width400 {
   width: 400px;
   margin: auto;
+}
+
+hr.hor-line{
+	border-top: 2px solid #bcc8bb;
+	width:70%;
+}
+
+hr.hor-line-short{
+	border-top: 2px solid #bcc8bb;
+	width:50%;
+}
+
+.section-title{
+  /*font-size: 100px;*/
+  font-size: 6rem;
+  font-weight: 100;
+  color: #d9edda;
+}
+
+.section-sub-title{
+  /*font-size: 100px;*/
+  font-size: 2rem;
+  font-weight: 100;
+  color: #e4f5e5;
+}
+
+.subsection-title{
+  /*font-size: 100px;*/
+  font-size: 5rem;
+}
+
+.subsubsection-title{
+  font-size: 22px;
+  font-weight: 100;
+  color: #e4f5e5;
+}
+
+#circle {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: #d9edda;
+}
+
+.academic-sub-title{
+  font-size: 22px;
+  font-weight: 100;
+  color: #e4f5e5;
+}
+
+.academic-content-title{
+  font-size: 30px;
+  font-weight: 100;
+  color: #d5e3d5;
+}
+
+.academic-content-authors{
+  font-size: 20px;
+  font-weight: 100;
+  color: #c1cdc2;
+}
+
+.academic-content-year{
+  font-size: 13px;
+  font-weight: 100;
+  color: #abb6ac;
+}
+
+.academic-text{
+  font-size: 22px;
+  font-weight: 100;
+  color: #d9edda;
 }
