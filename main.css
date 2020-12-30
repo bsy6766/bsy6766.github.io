@@ -189,6 +189,12 @@ hr.hor-line-short{
       background: #d9edda;
 }
 
+.project-content-title{
+  font-size: 50px;
+  font-weight: 100;
+  color: #d5e3d5;
+}
+
 .academic-sub-title{
   font-size: 22px;
   font-weight: 100;
