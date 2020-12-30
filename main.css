@@ -53,6 +53,15 @@ a[href^="http:"] {
   font-family: 'Malgun Gothic';
 }
 
+.position-title-replace{
+  position: relative;
+  text-align: center;
+  color: #d6e1d6;
+  font-size: 3em;
+  font-family: 'Malgun Gothic';
+}
+
+
 .my-photo {
     position: relative;
     width: 12em;
@@ -64,7 +73,7 @@ a[href^="http:"] {
 
 .intro-text{
     position: relative;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .fade-in {
@@ -187,6 +196,12 @@ hr.hor-line-short{
       -moz-border-radius: 25px;
       border-radius: 25px;
       background: #d9edda;
+}
+
+.about-text{
+  font-size: 20px;
+  font-weight: 100;
+  color: #d5e3d5;
 }
 
 .project-content-title{
