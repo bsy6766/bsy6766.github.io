@@ -17,6 +17,7 @@
         <!-- Custom styles for this template -->
         <link href="main.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
+        <link href="slideshow.css" rel="stylesheet">
 
     </head>
 
@@ -28,7 +29,7 @@
            <li><a href='about.html'><span>ABOUT</span></a></li>
            <li class='active'><a href='project.html'><span>PROJECT</span></a></li>
            <li><a href='academic.html'><span>ACADEMIC</span></a></li>
-           <li class='last'><a href='#'><span>RESUME</span></a></li>
+           <li class='last'><a href='resume.html'><span>RESUME</span></a></li>
         </ul>
     </nav>
 
@@ -56,7 +57,7 @@
         <!-- Project 2 -->
         <p class="academic-content-title"> Voxel Engine </p>
         <p class="academic-content-authors"> 2018</p>
-        <div align="center">
+        <div class="video-container" align="center">
             <iframe width="480" height="270" src="https://www.youtube.com/embed/6T4hT0OZSl4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=6T4hT0OZSl4&feature=youtu.be" title="Demo playlist" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
@@ -71,7 +72,7 @@
         <!-- Project 3 -->
         <p class="academic-content-title"> Monster Hunter World Armor Set Searcher </p>
         <p class="academic-content-authors"> 2018</p>
-        <a class="btn-social btn-outline" href="https://github.com/bsy6766/MHWASS/releases" title="Download" target="_blank"><i class="fas fa-download"></i></a>    
+        <a class="btn-social btn-outline" href="https://github.com/bsy6766/MHWASS/releases" title="Download" target="_blank"><i class="fa fa-download"></i></a>    
         <br><br>                    
         <p class="academic-text"> A tool that helps players to find desired armor sets in the game Monster Hunter World.</p>
         <p class="academic-text"> Developed with C++ and Win32 API</p>
@@ -84,11 +85,15 @@
         <!-- Project 4 -->
         <p class="academic-content-title">Visualization </p>
         <p class="academic-content-authors"> 2017</p>
-        <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization" target="_blank"><i class="fab fa-github"></i></a>
+        <div class="video-container" align="center">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization" target="_blank"><i class="fa fa-github"></i></a>
         &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=ukIWfrJ5PKQ&list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" title="Demo playlist" target="_blank"><i class="fas fa-video"></i></a>
+        <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=ukIWfrJ5PKQ&list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" title="Demo playlist" target="_blank"><i class="fa fa-youtube-play"></i></a>
         &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization/wiki/01.-Home" title="Github Wiki" target="_blank"><i class="fas fa-book"></i></a>
+        <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization/wiki/01.-Home" title="Github Wiki" target="_blank"><i class="fa fa-book"></i></a>
+        <br><br>
         <p class="academic-text">Visualization of algorithms.</p>
         <p class="academic-text"> Download avaiable for<br> <a href="https://drive.google.com/drive/folders/0BxL3wp7rb67tNmNvdXZ1emJXMTg" target="_blank">Windows</a> and <a href="https://drive.google.com/drive/folders/0BxL3wp7rb67tTDJNZGNXQ2wtSkk" target="_blank">Mac</a>.</p>
         <p class="academic-text"> Developed with Cocos2d-X 3.14</p>
@@ -100,10 +105,38 @@
         <!-- Project 5 -->
         <p class="academic-content-title"  target="_blank"> Meteor Tap</p>
         <p class="academic-content-authors"> 2013</p>
-        <a class="btn-social btn-outline" href="https://imgur.com/a/Ym0Sz98" title="Screenshots" target="_blank"><i class="fas fa-images"></i></a>
+
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="images/projects/MeteorTap/meteorTap1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/projects/MeteorTap/meteorTap2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/projects/MeteorTap/meteorTap3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/projects/MeteorTap/meteorTap4.png" style="width:100%">
+            </div>
+
+            <br class="half">
+
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <br><br>
+
         <p class="academic-text"> 2D iOS defense game.</p>
-        <p class="academic-text"> Developed a 2D game on iOS and released on AppStore for 1 year. Development took 3 months during the summer break.</p>
-        <p class="academic-text"> Used Objective-C, Cocos2d-iPhone, Adobe Photoshop, TexturePacker, Xcode</p>
+        <p class="academic-text"> Released on Apple Store @ 2013 </p>
+        <p class="academic-text"> Developed with Objective-C and Cocos2d-iphone</p>
     </div>
 
     <div class="gap70"></div>
@@ -114,6 +147,9 @@
     </div>
 
     <div class="gap30"></div>
+
+    <!-- Script -->
+    <script src="slideshow.js"></script>
 
 </body>
 
