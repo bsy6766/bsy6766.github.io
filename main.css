@@ -247,6 +247,12 @@ hr.hor-line-short{
   text-align: center
 }
 
+.image-container {
+  position: relative;
+  width:80%;
+  text-align: center
+}
+
 .video-container {
   overflow: hidden;
   position: relative;
