@@ -144,6 +144,38 @@ a[href^="http:"] {
   padding: 0px;
 }
 
+.link-list-2 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  width: 150px;
+}
+
+.link-list-4 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  width: 300px;
+}
+
+.link-list-5 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  width: 400px;
+}
+
+
+li {
+  flex-basis: calc(25% - 20px);
+}
+
 .item-label{
   font-size: 15px;
   font-weight: 100;
@@ -190,12 +222,12 @@ hr.hor-line-short{
 }
 
 #circle {
-      width: 10px;
-      height: 10px;
-      -webkit-border-radius: 25px;
-      -moz-border-radius: 25px;
-      border-radius: 25px;
-      background: #d9edda;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #d9edda;
 }
 
 .about-text{
