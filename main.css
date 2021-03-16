@@ -222,12 +222,31 @@ hr.hor-line-short{
 }
 
 #circle {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
   background: #d9edda;
+}
+
+#diamond {
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom-color: #d9edda;
+  position: relative;
+  top: -20px;
+}
+#diamond:after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #d9edda;
 }
 
 .about-text{
@@ -239,7 +258,12 @@ hr.hor-line-short{
 .project-content-title{
   font-size: 50px;
   font-weight: 100;
-  color: #d5e3d5;
+  color: #f7fff7;
+}
+
+.project-hashtags{
+  font-size: 25px;
+  color: #e2f4e2;
 }
 
 .academic-sub-title{
