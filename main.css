@@ -153,6 +153,15 @@ a[href^="http:"] {
   width: 150px;
 }
 
+.link-list-3 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  width: 220px;
+}
+
 .link-list-4 {
   list-style: none;
   display: flex;
@@ -294,6 +303,10 @@ hr.hor-line-short{
   font-size: 22px;
   font-weight: 100;
   color: #d9edda;
+}
+
+.academic-image{
+  width: 100%;
 }
 
 .slideshow-container{
