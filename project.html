@@ -19,7 +19,13 @@
         <link href="styles.css" rel="stylesheet">
         <link href="slideshow.css" rel="stylesheet">
 
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
     </head>
+
+
+    <script src="scroll.js">
+    </script>
 
 <body id="page-top" class="index">
     <!-- Navbar -->
@@ -93,232 +99,243 @@
         <div id="diamond"></div>
         <br><br><br>
 
-        <!-- Project 3 -->
-        <p class="project-content-title"> Monster Hunter World<br>Armor Set Searcher</p>
-        <p class="project-hashtags"> #MonsterHunterWorld &nbsp; &nbsp; #C++ &nbsp; &nbsp; #Win32API &nbsp; &nbsp; #Windows</p>
-        <p class="academic-content-authors"> 2018</p>
+        <div class="hideme">
+            <!-- Project 3 -->
+            <p class="project-content-title"> Monster Hunter World<br>Armor Set Searcher</p>
+            <p class="project-hashtags"> #MonsterHunterWorld &nbsp; &nbsp; #C++ &nbsp; &nbsp; #Win32API &nbsp; &nbsp; #Windows</p>
+            <p class="academic-content-authors"> 2018</p>
 
-        <!-- Slide show -->
-        <div class="slideshow-container">
-            <div class="MHWASSSlides">
-                <a href="https://raw.githubusercontent.com/bsy6766/bsy6766.github.io/master/images/projects/MHWASS/english.png" title="Click me to see in full resolution." target="_blank">
-                <img src="images/projects/MHWASS/english.png" style="width:100%">
-                </a>
+            <!-- Slide show -->
+            <div class="hideme">
+                <div class="MHWASSSlides">
+                    <a href="https://raw.githubusercontent.com/bsy6766/bsy6766.github.io/master/images/projects/MHWASS/english.png" title="Click me to see in full resolution." target="_blank">
+                    <img src="images/projects/MHWASS/english.png" style="width:100%">
+                    </a>
+                </div>
+
+                <div class="MHWASSSlides">
+                    <a href="https://raw.githubusercontent.com/bsy6766/bsy6766.github.io/master/images/projects/MHWASS/korean.png" title="Click me to see in full resolution." target="_blank">
+                    <img src="images/projects/MHWASS/korean.png" style="width:100%">
+                    </a>
+                </div>
+                Screenshots (English & Korean). Click the image to enlarge.
+
+                <br class="half">
+
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1, 'MHWASSSlides')"></span>
+                  <span class="dot" onclick="currentSlide(2, 'MHWASSSlides')"></span>
+                </div>
             </div>
 
-            <div class="MHWASSSlides">
-                <a href="https://raw.githubusercontent.com/bsy6766/bsy6766.github.io/master/images/projects/MHWASS/korean.png" title="Click me to see in full resolution." target="_blank">
-                <img src="images/projects/MHWASS/korean.png" style="width:100%">
-                </a>
-            </div>
-            Screenshots (English & Korean). Click the image to enlarge.
+            <!-- External links -->
+            <ul class="link-list-4">
+                <li>
+                    <a class="btn-social btn-outline" href="https://github.com/bsy6766/MHWASS/releases" title="Download" target="_blank"><i class="fa fa-download"></i></a>
+                    <p class="item-label">Download</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="https://www.reddit.com/r/MonsterHunterWorld/comments/81xef9/i_made_armor_set_searcher_for_pc/"  title="Reddit" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+                    <p class="item-label">Reddit</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="https://bbs.ruliweb.com/family/4442/board/184513/read/59817"  title="루리웹" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+                    <p class="item-label">루리웹</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="http://www.inven.co.kr/board/mhf/3749/1257"  title="인벤" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+                    <p class="item-label">인벤</p>
+                </li>
+            </ul>
 
-            <br class="half">
+            <!-- <a class="btn-social btn-outline" href="https://github.com/bsy6766/MHWASS/releases" title="Download" target="_blank"><i class="fa fa-download"></i></a>  
+            &nbsp;&nbsp;&nbsp;
+            <a class="btn-social btn-outline" href="https://www.reddit.com/r/MonsterHunterWorld/comments/81xef9/i_made_armor_set_searcher_for_pc/"  title="Reddit" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="btn-social btn-outline" href="http://www.inven.co.kr/board/mhf/3749/1257"  title="인벤" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="btn-social btn-outline" href="https://bbs.ruliweb.com/family/4442/board/184513/read/59817"  title="루리웹" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>   -->
+            <!-- <br><br>                     -->
 
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1, 'MHWASSSlides')"></span>
-              <span class="dot" onclick="currentSlide(2, 'MHWASSSlides')"></span>
-            </div>
+            <!-- Description -->
+            <p class="academic-text"> A tool that helps players to find desired armor sets<br>in the game Monster Hunter World.</p>           
+    <!--         <p class="academic-text"> A tool that helps players to find desired armor sets in the game Monster Hunter World.</p>           
+            <p class="academic-text"> MHWASS supports both English and Korean,<br>and was shared on Reddit(EN), Inven(KR), and Ruliweb(KR) </p>
+            <p class="academic-text"> This project does not support MHW:IB and no longer maintained. </p>
+            <p class="academic-text"> Developed with C++ and Win32 API</p> -->
+
+
+            <br><br><br>
+            <div id="diamond"></div>
+            <br><br><br>
         </div>
 
-        <!-- External links -->
-        <ul class="link-list-4">
-            <li>
-                <a class="btn-social btn-outline" href="https://github.com/bsy6766/MHWASS/releases" title="Download" target="_blank"><i class="fa fa-download"></i></a>
-                <p class="item-label">Download</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="https://www.reddit.com/r/MonsterHunterWorld/comments/81xef9/i_made_armor_set_searcher_for_pc/"  title="Reddit" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
-                <p class="item-label">Reddit</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="https://bbs.ruliweb.com/family/4442/board/184513/read/59817"  title="루리웹" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
-                <p class="item-label">루리웹</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="http://www.inven.co.kr/board/mhf/3749/1257"  title="인벤" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
-                <p class="item-label">인벤</p>
-            </li>
-        </ul>
 
-        <!-- <a class="btn-social btn-outline" href="https://github.com/bsy6766/MHWASS/releases" title="Download" target="_blank"><i class="fa fa-download"></i></a>  
-        &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://www.reddit.com/r/MonsterHunterWorld/comments/81xef9/i_made_armor_set_searcher_for_pc/"  title="Reddit" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="http://www.inven.co.kr/board/mhf/3749/1257"  title="인벤" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://bbs.ruliweb.com/family/4442/board/184513/read/59817"  title="루리웹" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>   -->
-        <!-- <br><br>                     -->
+        <div class="hideme">
+            <!-- Project 4 -->
+            <p class="project-content-title">Visualization </p>
+            <p class="project-hashtags"> #AlgorithmVisualization &nbsp; &nbsp; #Cocos2d-X &nbsp; &nbsp; #C++</p>
+            <p class="academic-content-authors"> 2017</p>
+            <div class="video-container" align="center">
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            Demonstration videos. This is playlist of total 8 videos.
 
-        <!-- Description -->
-        <p class="academic-text"> A tool that helps players to find desired armor sets<br>in the game Monster Hunter World.</p>           
-<!--         <p class="academic-text"> A tool that helps players to find desired armor sets in the game Monster Hunter World.</p>           
-        <p class="academic-text"> MHWASS supports both English and Korean,<br>and was shared on Reddit(EN), Inven(KR), and Ruliweb(KR) </p>
-        <p class="academic-text"> This project does not support MHW:IB and no longer maintained. </p>
-        <p class="academic-text"> Developed with C++ and Win32 API</p> -->
+            <ul class="link-list-5">
+                <li>
+                    <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization" target="_blank"><i class="fab fa-github"></i></a>
+                    <p class="item-label">Github</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=ukIWfrJ5PKQ&list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <p class="item-label">YouTube</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization/wiki/01.-Home" title="Github Wiki" target="_blank"><i class="fa fa-book"></i></a>
+                    <p class="item-label">Wiki</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tNmNvdXZ1emJXMTg" title="Download (Windows)" target="_blank"><i class="fab fa-windows"></i></a>
+                    <p class="item-label">Download</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tTDJNZGNXQ2wtSkk" title="Download (OS X)" target="_blank"><i class="fab fa-apple"></i></i></a>
+                    <p class="item-label">Download</p>
+                </li>
+            </ul>
 
+    <!--         <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization" target="_blank"><i class="fab fa-github"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=ukIWfrJ5PKQ&list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization/wiki/01.-Home" title="Github Wiki" target="_blank"><i class="fa fa-book"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tNmNvdXZ1emJXMTg" title="Download (Windows)" target="_blank"><i class="fab fa-windows"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tTDJNZGNXQ2wtSkk" title="Download (OS X)" target="_blank"><i class="fab fa-apple"></i></i></a>
+            <br><br> -->
 
-        <br><br><br>
-        <div id="diamond"></div>
-        <br><br><br>
+            <p class="academic-text">Visualization of algorithms, step by step.</p>
 
+    <!--         <p class="academic-text">Visualization of algorithm, selected based on fun.</p>
+            <p class="academic-text">The main goal of this project was to break down the algorithm<br>step by step for visualization.</p>
+            <p class="academic-text">Implementation details and help for download is described on wiki page<br>(book icon above).</p> -->
+            <!-- <p class="academic-text"> Developed with Cocos2d-X 3.14</p> -->
 
-        <!-- Project 4 -->
-        <p class="project-content-title">Visualization </p>
-        <p class="project-hashtags"> #AlgorithmVisualization &nbsp; &nbsp; #Cocos2d-X &nbsp; &nbsp; #C++</p>
-        <p class="academic-content-authors"> 2017</p>
-        <div class="video-container" align="center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <p class="academic-text"> Download avaiable for<br> <a href="https://drive.google.com/drive/folders/0BxL3wp7rb67tNmNvdXZ1emJXMTg" target="_blank">Windows</a> and <a href="https://drive.google.com/drive/folders/0BxL3wp7rb67tTDJNZGNXQ2wtSkk" target="_blank">Mac</a>.</p> -->
+
+            <br><br><br>
+            <div id="diamond"></div>
+            <br><br><br>
+
         </div>
-        Demonstration videos. This is playlist of total 8 videos.
 
-        <ul class="link-list-5">
-            <li>
-                <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization" target="_blank"><i class="fab fa-github"></i></a>
-                <p class="item-label">Github</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=ukIWfrJ5PKQ&list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></a>
-                <p class="item-label">YouTube</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization/wiki/01.-Home" title="Github Wiki" target="_blank"><i class="fa fa-book"></i></a>
-                <p class="item-label">Wiki</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tNmNvdXZ1emJXMTg" title="Download (Windows)" target="_blank"><i class="fab fa-windows"></i></a>
-                <p class="item-label">Download</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tTDJNZGNXQ2wtSkk" title="Download (OS X)" target="_blank"><i class="fab fa-apple"></i></i></a>
-                <p class="item-label">Download</p>
-            </li>
-        </ul>
+        <div class="hideme">
+            <!-- Project 5 -->
+            <p class="project-content-title"> Volt2D</p>
+            <p class="project-hashtags"> #GameEngine &nbsp; &nbsp; #2D &nbsp; &nbsp; #C++ &nbsp; &nbsp; #OpenGL &nbsp; &nbsp; #FinalProject</p>
+            <p class="academic-content-authors"> 2015</p>
+            <div class="video-container" align="center">
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/_veXqXIO624" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            Demonstration video.
+            <br>
 
-<!--         <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization" target="_blank"><i class="fab fa-github"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=ukIWfrJ5PKQ&list=PL7mtPUWtAD6vuz5XKOmXONpnP-QzcrRV8" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://github.com/bsy6766/Visualization/wiki/01.-Home" title="Github Wiki" target="_blank"><i class="fa fa-book"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tNmNvdXZ1emJXMTg" title="Download (Windows)" target="_blank"><i class="fab fa-windows"></i></a>
-        &nbsp;&nbsp;&nbsp;
-        <a class="btn-social btn-outline" href="https://drive.google.com/drive/folders/0BxL3wp7rb67tTDJNZGNXQ2wtSkk" title="Download (OS X)" target="_blank"><i class="fab fa-apple"></i></i></a>
-        <br><br> -->
 
-        <p class="academic-text">Visualization of algorithms, step by step.</p>
+            <ul class="link-list-2">
+                <li>
+                    <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=_veXqXIO624" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></i></a>
+                    <p class="item-label">YouTube</p>
+                </li>
+                <li>
+                    <a class="btn-social btn-outline" href="https://github.com/bsy6766/Volt2D" title="Github" target="_blank"><i class="fab fa-github"></i></a>
+            <p class="item-label">Github</p>
+                </li>
+            </ul>
 
-<!--         <p class="academic-text">Visualization of algorithm, selected based on fun.</p>
-        <p class="academic-text">The main goal of this project was to break down the algorithm<br>step by step for visualization.</p>
-        <p class="academic-text">Implementation details and help for download is described on wiki page<br>(book icon above).</p> -->
-        <!-- <p class="academic-text"> Developed with Cocos2d-X 3.14</p> -->
+            
+            <!-- <br><br> -->
 
-        <!-- <p class="academic-text"> Download avaiable for<br> <a href="https://drive.google.com/drive/folders/0BxL3wp7rb67tNmNvdXZ1emJXMTg" target="_blank">Windows</a> and <a href="https://drive.google.com/drive/folders/0BxL3wp7rb67tTDJNZGNXQ2wtSkk" target="_blank">Mac</a>.</p> -->
+            <p class="academic-text"> Final project of mine for Computer Graphics Course during college.</p>
+            <p class="academic-text"> Inspired by Cocos2d-X.</p>
 
-        <br><br><br>
-        <div id="diamond"></div>
-        <br><br><br>
 
-        <!-- Project 5 -->
-        <p class="project-content-title"> Volt2D</p>
-        <p class="project-hashtags"> #GameEngine &nbsp; &nbsp; #2D &nbsp; &nbsp; #C++ &nbsp; &nbsp; #OpenGL &nbsp; &nbsp; #FinalProject</p>
-        <p class="academic-content-authors"> 2015</p>
-        <div class="video-container" align="center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/_veXqXIO624" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <!--    <p class="academic-text"> An game engine written in C++ and OpenGL,<br>inspired by the design of Cocos2d-X.</p>
+            <p class="academic-text"> The main purpose of this project was to learn C++, OpenGL, and game engine.</p>
+            <p class="academic-text"> This project is no longer maintained, but replaced by my latest project Volt3D.</p> -->
+
+            <br><br><br>
+            <div id="diamond"></div>
+            <br><br><br>
         </div>
-        Demonstration video.
-        <br>
 
+        <div class="hideme">
+            <!-- Project 6 -->
+            <p class="project-content-title"  target="_blank"> 3D Tetris</p>
+            <p class="project-hashtags"> #Tetris &nbsp; &nbsp; #Clone &nbsp; &nbsp; #3D &nbsp; &nbsp; #C++ &nbsp; &nbsp; #OpenGL</p>
+            <p class="academic-content-authors"> 2014</p>
 
-        <ul class="link-list-2">
-            <li>
-                <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=_veXqXIO624" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></i></a>
-                <p class="item-label">YouTube</p>
-            </li>
-            <li>
-                <a class="btn-social btn-outline" href="https://github.com/bsy6766/Volt2D" title="Github" target="_blank"><i class="fab fa-github"></i></a>
-        <p class="item-label">Github</p>
-            </li>
-        </ul>
+            <div class="video-container" align="center">
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/eyYTFEJTIJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            Demonstration video.
+            <br>
 
-        
-        <!-- <br><br> -->
+            <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=eyYTFEJTIJU" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></i></a>
+            <p class="item-label">YouTube</p>
 
-        <p class="academic-text"> Final project of mine for Computer Graphics Course during college.</p>
-        <p class="academic-text"> Inspired by Cocos2d-X.</p>
+            <p class="academic-text"> 3D Tetris clone for study purpose</p>
 
-
-     <!--    <p class="academic-text"> An game engine written in C++ and OpenGL,<br>inspired by the design of Cocos2d-X.</p>
-        <p class="academic-text"> The main purpose of this project was to learn C++, OpenGL, and game engine.</p>
-        <p class="academic-text"> This project is no longer maintained, but replaced by my latest project Volt3D.</p> -->
-
-        <br><br><br>
-        <div id="diamond"></div>
-        <br><br><br>
-
-        <!-- Project 6 -->
-        <p class="project-content-title"  target="_blank"> 3D Tetris</p>
-        <p class="project-hashtags"> #Tetris &nbsp; &nbsp; #Clone &nbsp; &nbsp; #3D &nbsp; &nbsp; #C++ &nbsp; &nbsp; #OpenGL</p>
-        <p class="academic-content-authors"> 2014</p>
-
-        <div class="video-container" align="center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/eyYTFEJTIJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br><br>
+            <div id="diamond"></div>
+            <br><br><br>
         </div>
-        Demonstration video.
-        <br>
 
-        <a class="btn-social btn-outline" href="https://www.youtube.com/watch?v=eyYTFEJTIJU" title="Demo playlist" target="_blank"><i class="fab fa-youtube"></i></i></a>
-        <p class="item-label">YouTube</p>
+        <div class="hideme">
+            <!-- Project 7 -->
+            <p class="project-content-title"  target="_blank"> Meteor Tap</p>
+            <p class="project-hashtags"> #iOS &nbsp; &nbsp; #2D &nbsp; &nbsp; #Objective-C &nbsp; &nbsp; #AppStore &nbsp; &nbsp; #SummerBreakProject</p>
+            <p class="academic-content-authors"> 2013</p>
 
-        <p class="academic-text"> 3D Tetris clone for study purpose</p>
+            <div class="slideshow-container">
+                <div class="MeteorTapSlides">
+                    <img src="images/projects/MeteorTap/meteorTap1.png" style="width:100%">
+                </div>
 
-        <br><br><br>
-        <div id="diamond"></div>
-        <br><br><br>
+                <div class="MeteorTapSlides">
+                    <img src="images/projects/MeteorTap/meteorTap2.png" style="width:100%">
+                </div>
 
-        <!-- Project 7 -->
-        <p class="project-content-title"  target="_blank"> Meteor Tap</p>
-        <p class="project-hashtags"> #iOS &nbsp; &nbsp; #2D &nbsp; &nbsp; #Objective-C &nbsp; &nbsp; #AppStore &nbsp; &nbsp; #SummerBreakProject</p>
-        <p class="academic-content-authors"> 2013</p>
+                <div class="MeteorTapSlides">
+                    <img src="images/projects/MeteorTap/meteorTap3.png" style="width:100%">
+                </div>
 
-        <div class="slideshow-container">
-            <div class="MeteorTapSlides">
-                <img src="images/projects/MeteorTap/meteorTap1.png" style="width:100%">
+                <div class="MeteorTapSlides">
+                    <img src="images/projects/MeteorTap/meteorTap4.png" style="width:100%">
+                </div>
+
+                Screenshots.
+                <br class="half">
+
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1,'MeteorTapSlides')"></span>
+                  <span class="dot" onclick="currentSlide(2,'MeteorTapSlides')"></span>
+                  <span class="dot" onclick="currentSlide(3,'MeteorTapSlides')"></span>
+                  <span class="dot" onclick="currentSlide(4,'MeteorTapSlides')"></span>
+                </div>
             </div>
+            <br><br>
 
-            <div class="MeteorTapSlides">
-                <img src="images/projects/MeteorTap/meteorTap2.png" style="width:100%">
-            </div>
+            <p class="academic-text"> My first game ever published on Apple Store @ 2013.</p>
+            <p class="academic-text"> Tap the asteroid to project your planet.</p>
 
-            <div class="MeteorTapSlides">
-                <img src="images/projects/MeteorTap/meteorTap3.png" style="width:100%">
-            </div>
 
-            <div class="MeteorTapSlides">
-                <img src="images/projects/MeteorTap/meteorTap4.png" style="width:100%">
-            </div>
-
-            Screenshots.
-            <br class="half">
-
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1,'MeteorTapSlides')"></span>
-              <span class="dot" onclick="currentSlide(2,'MeteorTapSlides')"></span>
-              <span class="dot" onclick="currentSlide(3,'MeteorTapSlides')"></span>
-              <span class="dot" onclick="currentSlide(4,'MeteorTapSlides')"></span>
-            </div>
+    <!--         <p class="academic-text"> 2D iOS defense game.</p>
+            <p class="academic-text"> The goal of this game is to project your planet from incoming asteroids by tapping 'em.</p>
+            <p class="academic-text"> The entire development process was done during the summer break.</p>
+            <p class="academic-text"> Released on Apple Store @ 2013 </p>
+            <p class="academic-text"> Developed with Objective-C and Cocos2d-iphone</p> -->
         </div>
-        <br><br>
-
-        <p class="academic-text"> My first game ever published on Apple Store @ 2013.</p>
-        <p class="academic-text"> Tap the asteroid to project your planet.</p>
-
-
-<!--         <p class="academic-text"> 2D iOS defense game.</p>
-        <p class="academic-text"> The goal of this game is to project your planet from incoming asteroids by tapping 'em.</p>
-        <p class="academic-text"> The entire development process was done during the summer break.</p>
-        <p class="academic-text"> Released on Apple Store @ 2013 </p>
-        <p class="academic-text"> Developed with Objective-C and Cocos2d-iphone</p> -->
     </div>
 
     <div class="gap70"></div>

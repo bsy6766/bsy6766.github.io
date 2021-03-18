@@ -390,3 +390,7 @@ hr.hor-line-short{
   font-size: 18px;
   color: #9fafa0;
 }
+
+.hideme{
+  opacity: 0%;
+}
