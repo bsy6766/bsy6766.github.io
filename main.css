@@ -394,3 +394,8 @@ hr.hor-line-short{
 .hideme{
   opacity: 0%;
 }
+
+.btn-title
+{
+  background-color:transparent;
+}
