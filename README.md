@@ -1,2 +1,6 @@
 # bsy6766.github.io
-Github page for my portfolio website
+This is a Github Page repo for my portfolio.
+
+The website is all static HTML with minimal JS,  
+built with the Bootstrap.  
+
