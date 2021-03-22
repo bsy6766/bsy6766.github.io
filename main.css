@@ -330,6 +330,19 @@ hr.hor-line-short{
   width: 100%;
 }
 
+.academic-college-link{
+ color:white;
+ text-decoration: underline;
+}
+.academic-college-link:hover{
+  color:#00FFFF;
+}
+
+.academic-myname{
+  color:white;
+  font-style:italic; 
+}
+
 .slideshow-container{
   overflow: hidden;
   position: relative;
