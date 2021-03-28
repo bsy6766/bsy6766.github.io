@@ -37,6 +37,13 @@ a[href^="http:"] {
   padding: 70px;
 }
 
+.myphoto-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+    height: 25%;
+}
+
 .name-title{
   position: relative;
   text-align: center;
