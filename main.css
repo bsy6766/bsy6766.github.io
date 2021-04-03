@@ -3,7 +3,7 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   overflow-x: hidden;
   background: #101621;
   /*font: normal 100%/1.5 "Titillium Web",sans-serif;*/
@@ -35,6 +35,18 @@ a[href^="http:"] {
 
 .gap70{
   padding: 70px;
+}
+
+.language-icon
+{
+  font-size: 50px;
+  color: #eff9ee;
+}
+
+.nav-lang-icon
+{
+  font-size: 20px;
+  color: #eff9ee;
 }
 
 .myphoto-container{
